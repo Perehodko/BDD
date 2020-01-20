@@ -17,4 +17,5 @@ Feature: A new table
 	    | Anya | Kay     | anyakay@g.com| 1234  |
 	    | Lily | Gen     | lilygen@y.com| 1333  |
 	    Then '2' entries should bepresent
-
+	    Then first row contain correct data
+	    Then second row contain correct data

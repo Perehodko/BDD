@@ -88,3 +88,17 @@ def step(context):
 @Then("'2' entries should bepresent")
 def step(context):
     test.compare(waitForObjectExists(names.cSV_Table_Unnamed_File_QTableWidget).rowCount, 2)
+
+@Then("first row contain correct data")
+def step(context):
+    test.compare(waitForObjectExists(names.file_0_0_QModelIndex).text, "Anya")
+    test.compare(waitForObjectExists(names.file_0_1_QModelIndex).text, "Kay")
+    test.compare(waitForObjectExists(names.file_0_2_QModelIndex).text, "anyakay@g.com")
+    test.compare(waitForObjectExists(names.file_0_3_QModelIndex).text, "1234")
+
+@Then("second row contain correct data")
+def step(context):
+    test.compare(waitForObjectExists(names.file_1_0_QModelIndex).text, "Lily")
+    test.compare(waitForObjectExists(names.file_1_1_QModelIndex).text, "Gen")
+    test.compare(waitForObjectExists(names.file_1_2_QModelIndex).text, "lilygen@y.com")
+    test.compare(waitForObjectExists(names.file_1_3_QModelIndex).text, "1333")

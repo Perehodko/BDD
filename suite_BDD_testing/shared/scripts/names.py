@@ -23,3 +23,7 @@ cSV_Table_QMessageBox = {"type": "QMessageBox", "unnamed": 1, "visible": 1, "win
 file_QHeaderView = {"container": cSV_Table_Unnamed_File_QTableWidget, "orientation": 2, "type": "QHeaderView", "unnamed": 1, "visible": 1}
 o1_HeaderViewItem = {"container": file_QHeaderView, "text": 1, "type": "HeaderViewItem", "visible": True}
 cSV_Table_Unnamed_File_QMenu = {"aboveWidget": cSV_Table_Unnamed_File_QToolBar, "type": "QMenu", "unnamed": 1, "visible": 1, "window": cSV_Table_Unnamed_MainWindow}
+file_1_0_QModelIndex = {"column": 0, "container": cSV_Table_Unnamed_File_QTableWidget, "row": 1, "type": "QModelIndex"}
+file_1_1_QModelIndex = {"column": 1, "container": cSV_Table_Unnamed_File_QTableWidget, "row": 1, "type": "QModelIndex"}
+file_1_2_QModelIndex = {"column": 2, "container": cSV_Table_Unnamed_File_QTableWidget, "row": 1, "type": "QModelIndex"}
+file_1_3_QModelIndex = {"column": 3, "container": cSV_Table_Unnamed_File_QTableWidget, "row": 1, "type": "QModelIndex"}
